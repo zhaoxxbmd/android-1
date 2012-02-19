@@ -1,0 +1,32 @@
+CyanogenMod9 ICS FOR HTC Desire (Bravo) BY DK_Zero-Coool
+===========
+
+Getting Started
+---------------
+
+To get started with CyanogenMod9 for Bravo, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
+To initialize your local repository using the CyanogenMod trees, use a command like this:
+
+    repo init -u git://github.com/dk-zero-cool/android.git -b ics-opengl
+
+Then to sync up:
+
+    repo sync
+
+You can the execute the command:
+
+    . build/envsetup.sh
+    lunch
+
+And select "cm_bravo-eng".
+Then you start building by executing:
+
+    make
+
+Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
+
+For more information on this Github Organization and how it is structured, 
+please [read the wiki article](http://wiki.cyanogenmod.com/index.php/Github_Organization)
+
