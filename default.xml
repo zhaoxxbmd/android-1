@@ -193,17 +193,14 @@
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
-  <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
-  <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
   <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
