@@ -12,6 +12,10 @@
            remote="github"
            sync-j="4" />
 
+  <remote  name="dk"
+	   fetch="https://github.com/"
+	   revision="master" />
+
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -23,8 +27,9 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="device/htc/bavo" name="dk-zero-cool/android_device_htc_bravo" revision="ics-opengl" />
-  <project path="device/htc/common" name="dk-zero-cool/android_device_htc_common" />
+  <project path="device/htc/bravo" name="dk-zero-cool/android_device_htc_bravo" remote="dk" revision="ics-opengl" />
+  <project path="device/htc/common" name="dk-zero-cool/android_device_htc_common" remote="dk" revision="master" />
+  <project path="external/mesa3d" name="dk-zero-cool/external/mesa3d" remote="dk" revision="master" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -45,7 +50,7 @@
   <project path="external/clang" name="platform/external/clang" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/collada" name="platform/external/collada" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/dbus" name="CyanogenMod/android_external_dbus" />
-  <project path="external/dhcpcd" name="dk-zero-cool/android_external_dhcpcd" />
+  <project path="external/dhcpcd" name="dk-zero-cool/android_external_dhcpcd" remote="dk" revision="master" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
@@ -100,7 +105,6 @@
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="external/mesa3d" name="dk-zero-cool/external/mesa3d" />
   <project path="external/mksh" name="platform/external/mksh" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" />
@@ -152,7 +156,7 @@
   <project path="external/vim" name="CyanogenMod/android_external_vim" revision="master" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
-  <project path="frameworks/base" name="dk-zero-cool/android_frameworks_base" />
+  <project path="frameworks/base" name="dk-zero-cool/android_frameworks_base" remote="dk" revision="master" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
@@ -170,9 +174,9 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
-  <project path="hardware/qcom/display" name="dk-zero-cool/android_hardware_qcom_display" />
+  <project path="hardware/qcom/display" name="dk-zero-cool/android_hardware_qcom_display" revision="master" remote="dk" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
-  <project path="hardware/qcom/media" name="dk-zero-cool/android_hardware_qcom_media" />
+  <project path="hardware/qcom/media" name="dk-zero-cool/android_hardware_qcom_media" revision="master" remote="dk"/>
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -218,7 +222,7 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="dk-zero-cool/android_packages_providers_ContactsProvider" />
+  <project path="packages/providers/ContactsProvider" name="dk-zero-cool/android_packages_providers_ContactsProvider" revision="master" remote="dk" />
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="CyanogenMod/android_packages_providers_DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="CyanogenMod/android_packages_providers_GoogleContactsProvider" />
@@ -235,8 +239,8 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
-  <project path="vendor/bcm" name="dk-zero-cool/android_vendor_bcm" />
-  <project path="vendor/htc/bravo" name="dk-zero-cool/android_vendor_htc_bravo" revision="ics-opengl" />
+  <project path="vendor/bcm" name="dk-zero-cool/android_vendor_bcm" revision="master" remote="dk" />
+  <project path="vendor/htc/bravo" name="dk-zero-cool/android_vendor_htc_bravo" remote="dk" revision="ics-opengl" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
@@ -246,5 +250,5 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
-  <project path="android" name="dk-zero-cool/android" />
+  <project path="android" name="dk-zero-cool/android" remote="dk" revision="ics-opengl" />
 </manifest>
