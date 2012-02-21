@@ -29,7 +29,7 @@
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/htc/bravo" name="dk-zero-cool/android_device_htc_bravo" remote="dk" revision="ics-opengl" />
   <project path="device/htc/common" name="dk-zero-cool/android_device_htc_common" remote="dk" revision="master" />
-  <project path="external/mesa3d" name="dk-zero-cool/external/mesa3d" remote="dk" revision="master" />
+  <project path="external/mesa3d" name="dk-zero-cool/android_external_mesa3d" remote="dk" revision="master" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
