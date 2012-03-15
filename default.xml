@@ -17,23 +17,25 @@
            sync-j="4" />
 
   <remote  name="bcm"
-	   fetch="https://github.com/"
-	   revision="master" />
+	   fetch="git://github.com/dk-zero-cool/"
+	   revision="ics" />
 
   <project path="build" name="android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project path="gapps" name="android_gapps" remote="bcm" revision="ics" />
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="bionic" name="android_bionic" />
   <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" />
-  <project path="dalvik" name="dk-zero-cool/android_dalvik" remote="bcm" revision="master" />
+  <project path="dalvik" name="android_dalvik" remote="bcm" revision="ics" />
   <project path="development" name="android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="device/htc/bravo" name="dk-zero-cool/android_device_htc_bravo" remote="bcm" revision="ics-opengl" />
-  <project path="device/htc/common" name="dk-zero-cool/android_device_htc_common" remote="bcm" revision="master" />
-  <project path="external/mesa3d" name="dk-zero-cool/android_external_mesa3d" remote="bcm" revision="master" />
+  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="bcm" revision="ics" />
+  <project path="device/htc/common" name="android_device_htc_common" remote="bcm" revision="ics" />
+  <project path="external/mesa3d" name="android_external_mesa3d" remote="bcm" revision="ics" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -54,7 +56,7 @@
   <project path="external/clang" name="platform/external/clang" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/collada" name="platform/external/collada" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/dbus" name="android_external_dbus" />
-  <project path="external/dhcpcd" name="dk-zero-cool/android_external_dhcpcd" remote="bcm" revision="master" />
+  <project path="external/dhcpcd" name="android_external_dhcpcd" remote="bcm" revision="ics" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/dropbear" name="android_external_dropbear" />
@@ -156,11 +158,12 @@
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" />
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="wpa_supplicant_8" remote="bcm" revision="ics" />
   <project path="external/xmlwriter" name="android_external_xmlwriter" />
   <project path="external/vim" name="android_external_vim" revision="master" />
   <project path="external/yaffs2" name="android_external_yaffs2" />
   <project path="external/zlib" name="android_external_zlib" />
-  <project path="frameworks/base" name="dk-zero-cool/android_frameworks_base" remote="bcm" revision="master" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="bcm" revision="ics" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" />
@@ -175,12 +178,13 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="android_hardware_cm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" />
+  <project path="hardware/libhardware" name="hardware/libhardware" remote="bcm" revision="ics" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" />
-  <project path="hardware/qcom/display" name="dk-zero-cool/android_hardware_qcom_display" revision="master" remote="bcm" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" revision="ics" remote="bcm" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" />
-  <project path="hardware/qcom/media" name="dk-zero-cool/android_hardware_qcom_media" revision="master" remote="bcm"/>
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" revision="ics" remote="bcm"/>
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" revision="ics" remote="bcm"/>
   <project path="hardware/ril" name="android_hardware_ril" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -195,7 +199,7 @@
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" />
-  <project path="packages/apps/Contacts" name="dk-zero-cool/android_packages_apps_Contacts" remote="bcm" revision="master" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="bcm" revision="ics" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" />
@@ -207,10 +211,10 @@
   <project path="packages/apps/Music" name="android_packages_apps_Music" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="dk-zero-cool/android_packages_apps_Phone" remote="bcm" revision="master" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="bcm" revision="ics" />
   <project path="packages/apps/Protips" name="android_packages_apps_Protips" />
   <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="dk-zero-cool/android_packages_apps_Settings" remote="bcm" revision="master" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="bcm" revision="ics" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -227,7 +231,7 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="dk-zero-cool/android_packages_providers_ContactsProvider" revision="master" remote="bcm" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" revision="ics" remote="bcm" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="android_packages_providers_DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="android_packages_providers_GoogleContactsProvider" />
@@ -244,16 +248,16 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="prebuilt" name="android_prebuilt" />
   <project path="vendor/cm" name="android_vendor_cm" />
-  <project path="vendor/bcm" name="dk-zero-cool/android_vendor_bcm" revision="master" remote="bcm" />
-  <project path="vendor/htc/bravo" name="dk-zero-cool/android_vendor_htc_bravo" remote="bcm" revision="ics-opengl" />
+  <project path="vendor/bcm" name="android_vendor_bcm" revision="ics" remote="bcm" />
+  <project path="vendor/htc/bravo" name="android_vendor_htc_ics" remote="bcm" revision="ics" />
   <project path="sdk" name="android_sdk" />
   <project path="system/bluetooth" name="android_system_bluetooth" />
-  <project path="system/core" name="dk-zero-cool/android_system_core" remote="bcm" revision="master" />
+  <project path="system/core" name="android_system_core" remote="bcm" revision="ics" />
   <project path="system/extras" name="android_system_extras" />
   <project path="system/media" name="android_system_media" />
   <project path="system/netd" name="android_system_netd" />
   <project path="system/su" name="android_system_su" />
   <project path="system/vold" name="android_system_vold" />
 
-  <project path="android" name="dk-zero-cool/android" remote="bcm" revision="ics-opengl" />
+  <project path="android" name="android" remote="bcm" revision="ics" />
 </manifest>
