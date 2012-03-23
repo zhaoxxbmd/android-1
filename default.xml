@@ -247,6 +247,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="prebuilt" name="android_prebuilt" />
   <project path="vendor/cm" name="android_vendor_cm" />
+  <project path="vendor/qsd8k" name="android_vendor_qsd8k" revision="ics" remote="bcm" />
   <project path="vendor/bcm" name="android_vendor_bcm" revision="ics" remote="bcm" />
   <project path="vendor/htc/bravo" name="android_vendor_htc_ics" remote="bcm" revision="ics" />
   <project path="sdk" name="android_sdk" />
