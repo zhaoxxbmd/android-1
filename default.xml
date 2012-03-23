@@ -34,6 +34,7 @@
   <project path="development" name="android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="bcm" revision="ics" />
+  <project path="device/htc/bravoc" name="android_device_htc_bravoc" remote="bcm" revision="ics" />
   <project path="device/htc/common" name="android_device_htc_common" remote="bcm" revision="ics" />
   <project path="external/mesa3d" name="android_external_mesa3d" remote="bcm" revision="ics" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -250,6 +251,7 @@
   <project path="vendor/qsd8k" name="android_vendor_qsd8k" revision="ics" remote="bcm" />
   <project path="vendor/bcm" name="android_vendor_bcm" revision="ics" remote="bcm" />
   <project path="vendor/htc/bravo" name="android_vendor_htc_bravo" remote="bcm" revision="ics" />
+  <project path="vendor/htc/bravoc" name="android_vendor_htc_bravoc" remote="bcm" revision="ics" />
   <project path="sdk" name="android_sdk" />
   <project path="system/bluetooth" name="android_system_bluetooth" />
   <project path="system/core" name="android_system_core" remote="bcm" revision="ics" />
