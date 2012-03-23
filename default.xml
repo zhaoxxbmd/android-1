@@ -249,7 +249,7 @@
   <project path="vendor/cm" name="android_vendor_cm" />
   <project path="vendor/qsd8k" name="android_vendor_qsd8k" revision="ics" remote="bcm" />
   <project path="vendor/bcm" name="android_vendor_bcm" revision="ics" remote="bcm" />
-  <project path="vendor/htc/bravo" name="android_vendor_htc_ics" remote="bcm" revision="ics" />
+  <project path="vendor/htc/bravo" name="android_vendor_htc_bravo" remote="bcm" revision="ics" />
   <project path="sdk" name="android_sdk" />
   <project path="system/bluetooth" name="android_system_bluetooth" />
   <project path="system/core" name="android_system_core" remote="bcm" revision="ics" />
