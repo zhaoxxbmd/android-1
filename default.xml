@@ -180,7 +180,7 @@
   <project path="hardware/cm" name="android_hardware_cm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="bcm" revision="ics" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="bcm" revision="ics" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="bcm" revision="ics" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" revision="ics" remote="bcm" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" />
