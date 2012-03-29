@@ -254,6 +254,8 @@
   <project path="vendor/htc/bravo" name="android_vendor_htc_bravo" remote="bcm" revision="ics" />
   <project path="vendor/htc/bravoc" name="android_vendor_htc_bravoc" remote="bcm" revision="ics" />
   <project path="vendor/htc/passion" name="android_vendor_htc_passion" remote="bcm" revision="ics" />
+  <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="bcm" revision="ics" />
+  <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" remote="bcm" revision="ics" />
   <project path="sdk" name="android_sdk" />
   <project path="system/bluetooth" name="android_system_bluetooth" />
   <project path="system/core" name="android_system_core" remote="bcm" revision="ics" />
