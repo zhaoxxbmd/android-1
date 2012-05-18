@@ -270,6 +270,7 @@
   <project path="system/netd" name="android_system_netd" />
   <project path="system/su" name="android_system_su" />
   <project path="system/vold" name="android_system_vold" />
+  <project path="kernel/htc/qsd8k" name="android_kernel_htc_qsd8k" remote="bcm" revision="ics" />
 
   <project path="android" name="android" remote="bcm" revision="ics" />
 </manifest>
