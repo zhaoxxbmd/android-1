@@ -256,8 +256,8 @@
   <project path="vendor/htc/bravo" name="android_vendor_htc_bravo" remote="bcm" revision="ics" />
   <project path="vendor/htc/bravoc" name="android_vendor_htc_bravoc" remote="bcm" revision="ics" />
   <project path="vendor/htc/passion" name="android_vendor_htc_passion" remote="bcm" revision="ics" />
-  <project name="android_vendor_qcom_opensource_omx_mm-core" path="vendor/qcom/opensource/omx/mm-core" />
-  <project name="android_vendor_qcom_opensource_omx_mm-video" path="vendor/qcom/opensource/omx/mm-video" />
+  <project name="android_vendor_qcom_opensource_omx_mm-core" path="vendor/qcom/opensource/omx/mm-core" remote="evervolv" revision="ics" />
+  <project name="android_vendor_qcom_opensource_omx_mm-video" path="vendor/qcom/opensource/omx/mm-video" remote="evervolv" revision="ics" />
   <project name="android_vendor_qcom_opensource_v8" path="vendor/qcom/opensource/v8" />
   <project name="themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" />
   <project name="android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" />
