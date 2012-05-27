@@ -37,6 +37,7 @@
   <project path="device/htc/bravoc" name="android_device_htc_bravoc" remote="bcm" revision="ics" />
   <project path="device/htc/passion" name="android_device_htc_passion" remote="bcm" revision="ics" />
   <project path="device/htc/common" name="android_device_htc_common" remote="bcm" revision="ics" />
+  <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="bcm" revision="ics"/>
   <project path="external/mesa3d" name="android_external_mesa3d" remote="bcm" revision="ics" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
