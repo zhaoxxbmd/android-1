@@ -30,7 +30,7 @@
   <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" />
-  <project path="dalvik" name="android_dalvik" />
+  <project path="dalvik" name="android_dalvik" remote="bcm" revision="ics" />
   <project path="development" name="android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="bcm" revision="ics" />
