@@ -229,7 +229,7 @@
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="evervolv" revision="ics" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" />
-  <project path="packages/apps/Usb" name="android_packages_apps_Usb" />
+  <project path="packages/apps/Usb" name="android_packages_apps_Usb" remote="bcm" revision="ics" />
   <project path="packages/experimental" name="android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
